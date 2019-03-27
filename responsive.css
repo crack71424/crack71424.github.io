@@ -1,0 +1,38 @@
+/*タブレット用*/
+@media all and (max-width: 1000px) {
+.lesson {
+  width: 48%;
+  height: 400px;
+}
+
+.text-contents {
+  font-size: 18px;
+}
+
+}
+
+
+/*スマホ用*/
+@media all and (max-width:670px) {
+.lesson {
+  width: 99%;
+  height: 450px;
+}
+
+.logo-title {
+  font-size: 30px;
+}
+
+header {
+  height: 100px;
+  background-color: skyblue;
+}
+
+.top-wrapper p {
+  color: black;
+}
+
+.lesson {
+  
+}
+}
